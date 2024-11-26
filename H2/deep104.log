@@ -1,0 +1,878 @@
+arik@Ariks-MacBook-Pro-2 H2 % cdxgen --evidence -p --deep
+Executing 'mvn dependency:copy-dependencies -DoutputDirectory=/var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/mvn-deps-CzMLrl -U -Dmdep.copyPom=true -Dmdep.useRepositoryLayout=true -Dmdep.includeScope=compile -Dmdep.prependGroupId=false -Dmdep.stripVersion=false' in /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/H2/Zip/springboot-h2-database-rce-1.0-SNAPSHOT/META-INF/maven/org.example/springboot-h2-database-rce
+About to identify class names for all jars in the path /var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/mvn-deps-CzMLrl
+Executing 'mvn dependency:tree -DoutputFile=/var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/cdxmvn-moiiSk/mvn-tree.txt' in /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/H2/Zip/springboot-h2-database-rce-1.0-SNAPSHOT/META-INF/maven/org.example/springboot-h2-database-rce
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Maven search appears to be unavailable. Search will be skipped for all remaining packages.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Unable to extract /var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/jar-deps-vSJGCm/byte-buddy-1.10.2.jar. Skipping. [Error: EISDIR: illegal operation on a directory, open '/var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/jar-deps-vSJGCm/META-INF/LICENSE'] {
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/jar-deps-vSJGCm/META-INF/LICENSE'
+}
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+About to collect jar dependencies for the path .
+Executing 'mvn dependency:copy-dependencies -DoutputDirectory=/var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/mvn-deps-Ecqo6w -U -Dmdep.copyPom=true -Dmdep.useRepositoryLayout=true -Dmdep.includeScope=compile -Dmdep.prependGroupId=false -Dmdep.stripVersion=false' in .
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.152 s
+[INFO] Finished at: 2024-11-26T13:07:31+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:3.7.0:copy-dependencies (default-cli): Goal requires a project to execute but there is no POM in this directory (/Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/H2). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+
+You can try the following remediation tips to resolve this error:
+
+1. Check if the correct version of maven is installed and available in the PATH. Check if the environment variable MVN_ARGS needs to be set.
+2. Perform 'mvn compile package' before invoking this command. Fix any errors found during this invocation.
+3. Ensure the temporary directory is available and has sufficient disk space to copy all the artifacts.
+Unable to identify component evidence for the input SBOM. Only java, javascript, python, swift, and php projects are supported by evinse.
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                             BOM summary                                              ║
+╟──────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║                                                                                                      ║
+║                                                                                                      ║
+║ ** Generator Tools **                                                                                ║
+║ cdxgen (11.0.2)                                                                                      ║
+║                                                                                                      ║
+║ ** Package Types (1) **                                                                              ║
+║ maven                                                                                                ║
+║                                                                                                      ║
+║ ** Namespaces (47) **                                                                                ║
+║ antlr                                                                                                ║
+║ ch.qos.logback                                                                                       ║
+║ com.fasterxml                                                                                        ║
+║ com.fasterxml.jackson.core                                                                           ║
+║ com.fasterxml.jackson.datatype                                                                       ║
+║ com.fasterxml.jackson.module                                                                         ║
+║ com.h2database                                                                                       ║
+║ com.sun.istack                                                                                       ║
+║ com.sun.xml.fastinfoset                                                                              ║
+║ com.zaxxer                                                                                           ║
+║ dom4j                                                                                                ║
+║ io.micrometer                                                                                        ║
+║ jakarta.activation                                                                                   ║
+║ jakarta.annotation                                                                                   ║
+║ jakarta.persistence                                                                                  ║
+║ jakarta.transaction                                                                                  ║
+║ jakarta.validation                                                                                   ║
+║ jakarta.xml.bind                                                                                     ║
+║ net.bytebuddy                                                                                        ║
+║ org.apache                                                                                           ║
+║ org.apache.logging.log4j                                                                             ║
+║ org.apache.tomcat-embed-jasper-el                                                                    ║
+║ org.apache.tomcat.embed                                                                              ║
+║ org.aspectj                                                                                          ║
+║ org.aspectj.weaver                                                                                   ║
+║ org.bouncycastle                                                                                     ║
+║ org.bouncycastle.bcpkix                                                                              ║
+║ org.bouncycastle.bcprovider                                                                          ║
+║ org.dom4j                                                                                            ║
+║ org.glassfish.jaxb                                                                                   ║
+║ org.hdrhistogram                                                                                     ║
+║ org.hibernate                                                                                        ║
+║ org.hibernate.common                                                                                 ║
+║ org.hibernate.validator                                                                              ║
+║ org.javassist                                                                                        ║
+║ org.jboss                                                                                            ║
+║ org.jboss.logging                                                                                    ║
+║ org.jvnet.staxex                                                                                     ║
+║ org.latencyutils                                                                                     ║
+║ org.pcollections                                                                                     ║
+║ org.slf4j                                                                                            ║
+║ org.springframework                                                                                  ║
+║ org.springframework.boot                                                                             ║
+║ org.springframework.cloud                                                                            ║
+║ org.springframework.data                                                                             ║
+║ org.springframework.security                                                                         ║
+║ org.yaml                                                                                             ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                           Dependency Tree                                            ║
+║                                     Generated with ♥  by cdxgen                                      ║
+╟──────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║ pkg:maven/org.example/springboot-h2-database-rce@1.0-SNAPSHOT?type=jar                               ║
+║ ├── pkg:maven/com.h2database/h2@1.4.200?type=jar                                                     ║
+║ ├── pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.2.1.RELEASE?type=jar           ║
+║ │   ├── pkg:maven/io.micrometer/micrometer-core@1.3.1?type=jar                                       ║
+║ │   │   ├── pkg:maven/org.hdrhistogram/HdrHistogram@2.1.11?type=jar                                  ║
+║ └───└───└── pkg:maven/org.latencyutils/LatencyUtils@2.0.3?type=jar                                   ║
+║ └───└── pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.2.1.RELEASE?type=jar ║
+║ └───└───└── pkg:maven/org.springframework.boot/spring-boot-actuator@2.2.1.RELEASE?type=jar           ║
+║ ├── pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@2.2.1.RELEASE?type=jar           ║
+║ │   ├── pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?type=jar                           ║
+║ │   ├── pkg:maven/jakarta.persistence/jakarta.persistence-api@2.2.3?type=jar                         ║
+║ │   ├── pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.3?type=jar                         ║
+║ │   ├── pkg:maven/org.hibernate/hibernate-core@5.4.8.Final?type=jar                                  ║
+║ │   │   ├── pkg:maven/antlr/antlr@2.7.7?type=jar                                                     ║
+║ │   │   ├── pkg:maven/com.fasterxml/classmate@1.5.1?type=jar                                         ║
+║ │   │   ├── pkg:maven/net.bytebuddy/byte-buddy@1.10.2?type=jar                                       ║
+║ │   │   ├── pkg:maven/org.dom4j/dom4j@2.1.1?type=jar                                                 ║
+║ │   │   ├── pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.2?type=jar                                 ║
+║ │   │   │   ├── pkg:maven/com.sun.istack/istack-commons-runtime@3.0.8?type=jar                       ║
+║ │   │   │   ├── pkg:maven/com.sun.xml.fastinfoset/FastInfoset@1.2.16?type=jar                        ║
+║ │   │   │   ├── pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2?type=jar                       ║
+║ │   │   │   ├── pkg:maven/org.glassfish.jaxb/txw2@2.3.2?type=jar                                     ║
+║ └───└───└───└── pkg:maven/org.jvnet.staxex/stax-ex@1.8.1?type=jar                                    ║
+║ │   │   ├── pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.0.Final?type=jar        ║
+║ │   │   ├── pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar                                     ║
+║ │   │   ├── pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?type=jar                           ║
+║ └───└───└── pkg:maven/org.jboss/jandex@2.0.5.Final?type=jar                                          ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-aop@2.2.1.RELEASE?type=jar            ║
+║ └───└───└── pkg:maven/org.aspectj/aspectjweaver@1.9.4?type=jar                                       ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@2.2.1.RELEASE?type=jar           ║
+║ │   │   ├── pkg:maven/com.zaxxer/HikariCP@3.4.1?type=jar                                             ║
+║ └───└───└── pkg:maven/org.springframework/spring-jdbc@5.2.1.RELEASE?type=jar                         ║
+║ │   ├── pkg:maven/org.springframework.data/spring-data-jpa@2.2.1.RELEASE?type=jar                    ║
+║ │   │   ├── pkg:maven/org.slf4j/slf4j-api@1.7.29?type=jar                                            ║
+║ │   │   ├── pkg:maven/org.springframework.data/spring-data-commons@2.2.1.RELEASE?type=jar            ║
+║ │   │   ├── pkg:maven/org.springframework/spring-orm@5.2.1.RELEASE?type=jar                          ║
+║ └───└───└── pkg:maven/org.springframework/spring-tx@5.2.1.RELEASE?type=jar                           ║
+║ └───└── pkg:maven/org.springframework/spring-aspects@5.2.1.RELEASE?type=jar                          ║
+║ ├── pkg:maven/org.springframework.boot/spring-boot-starter-web@2.2.1.RELEASE?type=jar                ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-json@2.2.1.RELEASE?type=jar           ║
+║ │   │   ├── pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.10.0?type=jar           ║
+║ │   │   ├── pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.10.0?type=jar         ║
+║ └───└───└── pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.10.0?type=jar    ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.2.1.RELEASE?type=jar         ║
+║ │   │   ├── pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.27?type=jar                      ║
+║ │   │   ├── pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.27?type=jar                        ║
+║ └───└───└── pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.27?type=jar                 ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.2.1.RELEASE?type=jar     ║
+║ │   │   ├── pkg:maven/jakarta.validation/jakarta.validation-api@2.0.1?type=jar                       ║
+║ └───└───└── pkg:maven/org.hibernate.validator/hibernate-validator@6.0.18.Final?type=jar              ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter@2.2.1.RELEASE?type=jar                ║
+║ │   │   ├── pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar                       ║
+║ │   │   ├── pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.2.1.RELEASE?type=jar      ║
+║ │   │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.2.1.RELEASE?type=jar    ║
+║ │   │   │   ├── pkg:maven/ch.qos.logback/logback-classic@1.2.3?type=jar                              ║
+║ └───└───└───└───└── pkg:maven/ch.qos.logback/logback-core@1.2.3?type=jar                             ║
+║ │   │   │   ├── pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.12.1?type=jar                    ║
+║ └───└───└───└───└── pkg:maven/org.apache.logging.log4j/log4j-api@2.12.1?type=jar                     ║
+║ └───└───└───└── pkg:maven/org.slf4j/jul-to-slf4j@1.7.29?type=jar                                     ║
+║ │   │   ├── pkg:maven/org.springframework.boot/spring-boot@2.2.1.RELEASE?type=jar                    ║
+║ │   │   ├── pkg:maven/org.springframework/spring-core@5.2.1.RELEASE?type=jar                         ║
+║ └───└───└───└── pkg:maven/org.springframework/spring-jcl@5.2.1.RELEASE?type=jar                      ║
+║ └───└───└── pkg:maven/org.yaml/snakeyaml@1.25?type=jar                                               ║
+║ │   ├── pkg:maven/org.springframework/spring-web@5.2.1.RELEASE?type=jar                              ║
+║ └───└───└── pkg:maven/org.springframework/spring-beans@5.2.1.RELEASE?type=jar                        ║
+║ └───└── pkg:maven/org.springframework/spring-webmvc@5.2.1.RELEASE?type=jar                           ║
+║ │   │   ├── pkg:maven/org.springframework/spring-aop@5.2.1.RELEASE?type=jar                          ║
+║ │   │   ├── pkg:maven/org.springframework/spring-context@5.2.1.RELEASE?type=jar                      ║
+║ └───└───└── pkg:maven/org.springframework/spring-expression@5.2.1.RELEASE?type=jar                   ║
+║ └── pkg:maven/org.springframework.cloud/spring-cloud-starter-config@2.2.1.RELEASE?type=jar           ║
+║ │   ├── pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0?type=jar                        ║
+║ └───└───└── pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.0?type=jar                        ║
+║ │   ├── pkg:maven/org.springframework.cloud/spring-cloud-config-client@2.2.1.RELEASE?type=jar        ║
+║ └───└───└── pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.0?type=jar                 ║
+║ └───└── pkg:maven/org.springframework.cloud/spring-cloud-starter@2.2.1.RELEASE?type=jar              ║
+║ │   │   ├── pkg:maven/org.springframework.cloud/spring-cloud-commons@2.2.1.RELEASE?type=jar          ║
+║ │   │   ├── pkg:maven/org.springframework.cloud/spring-cloud-context@2.2.1.RELEASE?type=jar          ║
+║ └───└───└───└── pkg:maven/org.springframework.security/spring-security-crypto@5.2.1.RELEASE?type=jar ║
+║ └───└───└── pkg:maven/org.springframework.security/spring-security-rsa@1.0.9.RELEASE?type=jar        ║
+║ └───└───└───└── pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.64?type=jar                              ║
+║ └───└───└───└───└── pkg:maven/org.bouncycastle/bcprov-jdk15on@1.64?type=jar                          ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════╤═════════════════════════════════════╤═══════════════════════════╤═════════════════╤═══════════════════════════╗
+║ Group                     │ Name                                │                   Version │ Scope           │ Tags                      ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-web             │             2.2.1.RELEASE │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter                 │             2.2.1.RELEASE │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot                         │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-autoconfigure           │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-logging         │             2.2.1.RELEASE │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-classic                     │                     1.2.3 │ required        │ sql, xml                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-core                        │                     1.2.3 │ required        │ driver, registry, sql, xm ║
+║                           │                                     │                           │                 │ l                         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.logging.log4j  │ log4j-to-slf4j                      │                    2.12.1 │ required        │ api, framework, slf4j     ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.logging.log4j  │ log4j-api                           │                    2.12.1 │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ jul-to-slf4j                        │                    1.7.29 │ required        │ framework, slf4j          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.annotation        │ jakarta.annotation-api              │                     1.3.5 │ required        │ sql                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-core                         │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-jcl                          │             5.2.1.RELEASE │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.yaml                  │ snakeyaml                           │                      1.25 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-json            │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.dat │ jackson-datatype-jdk8               │                    2.10.0 │ required        │ xml                       ║
+║ atype                     │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.dat │ jackson-datatype-jsr310             │                    2.10.0 │ required        │ xml                       ║
+║ atype                     │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.mod │ jackson-module-parameter-names      │                    2.10.0 │ required        │ xml                       ║
+║ ule                       │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-tomcat          │             2.2.1.RELEASE │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-core                   │                    9.0.27 │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-el                     │                    9.0.27 │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-websocket              │                    9.0.27 │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-validation      │             2.2.1.RELEASE │ required        │ framework, validation     ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.validation        │ jakarta.validation-api              │                     2.0.1 │ required        │ validation                ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate.validator   │ hibernate-validator                 │              6.0.18.Final │ required        │ framework, validation     ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-web                          │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-beans                        │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-webmvc                       │             5.2.1.RELEASE │ required        │ framework, web            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-aop                          │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-context                      │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-expression                   │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-actuator        │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-actuator-autoconfigure  │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-actuator                │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ io.micrometer             │ micrometer-core                     │                     1.3.1 │ required        │ http, registry, sql       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hdrhistogram          │ HdrHistogram                        │                    2.1.11 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.latencyutils          │ LatencyUtils                        │                     2.0.3 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-starter-config         │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-starter                │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-context                │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.secur │ spring-security-crypto              │             5.2.1.RELEASE │ required        │ framework                 ║
+║ ity                       │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-commons                │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.secur │ spring-security-rsa                 │             1.0.9.RELEASE │ required        │ crypto, framework, securi ║
+║ ity                       │                                     │                           │                 │ ty                        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.bouncycastle          │ bcpkix-jdk15on                      │                      1.64 │ required        │ certificate, framework    ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.bouncycastle          │ bcprov-jdk15on                      │                      1.64 │ required        │ api, crypto, framework, j ║
+║                           │                                     │                           │                 │ ce                        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-config-client          │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-annotations                 │                    2.10.0 │ required        │ xml                       ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-databind                    │                    2.10.0 │ required        │ sql, xml                  ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-core                        │                    2.10.0 │ required        │ xml                       ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-data-jpa        │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-aop             │             2.2.1.RELEASE │ required        │ aop, framework            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.aspectj               │ aspectjweaver                       │                     1.9.4 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-jdbc            │             2.2.1.RELEASE │ required        │ framework, jdbc           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.zaxxer                │ HikariCP                            │                     3.4.1 │ required        │ jdbc                      ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-jdbc                         │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.activation        │ jakarta.activation-api              │                     1.2.1 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.persistence       │ jakarta.persistence-api             │                     2.2.3 │ required        │ sql                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.transaction       │ jakarta.transaction-api             │                     1.3.3 │ required        │ registry                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate             │ hibernate-core                      │               5.4.8.Final │ required        │ framework, orm            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jboss.logging         │ jboss-logging                       │               3.4.1.Final │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.javassist             │ javassist                           │                 3.24.0-GA │ required        │ bytecode, framework       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ net.bytebuddy             │ byte-buddy                          │                    1.10.2 │ required        │ registry                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ antlr                     │ antlr                               │                     2.7.7 │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jboss                 │ jandex                              │               2.0.5.Final │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml             │ classmate                           │                     1.5.1 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.dom4j                 │ dom4j                               │                     2.1.1 │ required        │ framework, xml            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate.common      │ hibernate-commons-annotations       │               5.1.0.Final │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.glassfish.jaxb        │ jaxb-runtime                        │                     2.3.2 │ required        │ registry, xml             ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.xml.bind          │ jakarta.xml.bind-api                │                     2.3.2 │ required        │ registry, xml             ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.glassfish.jaxb        │ txw2                                │                     2.3.2 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.sun.istack            │ istack-commons-runtime              │                     3.0.8 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jvnet.staxex          │ stax-ex                             │                     1.8.1 │ required        │ api                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.sun.xml.fastinfoset   │ FastInfoset                         │                    1.2.16 │ required        │ binary, xml               ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.data  │ spring-data-jpa                     │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.data  │ spring-data-commons                 │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-orm                          │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-tx                           │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ slf4j-api                           │                    1.7.29 │ required        │ framework, slf4j          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-aspects                      │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.h2database            │ h2                                  │                   1.4.200 │ required        │ database                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.pcollections          │ pcollections                        │                     3.1.0 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.bouncycastle.bcprovid │ bcprov-jdk15on                      │                      1.64 │                 │ framework                 ║
+║ er                        │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.bouncycastle.bcpkix   │ bcpkix-jdk15on                      │                      1.64 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.aspectj.weaver        │ aspectjweaver                       │                     1.9.4 │                 │                           ║
+arik@Ariks-MacBook-Pro-2 H2 % cdxgen --evidence -p --deep
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/jar-deps-vSJGCm/META-INF/LICENSE'
+}
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+Obtained only 79 components from 80 jars.
+About to collect jar dependencies for the path .
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.152 s
+[INFO] Finished at: 2024-11-26T13:07:31+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+
+You can try the following remediation tips to resolve this error:
+
+1. Check if the correct version of maven is installed and available in the PATH. Check if the environment variable MVN_ARGS needs to be set.
+2. Perform 'mvn compile package' before invoking this command. Fix any errors found during this invocation.
+3. Ensure the temporary directory is available and has sufficient disk space to copy all the artifacts.
+Unable to identify component evidence for the input SBOM. Only java, javascript, python, swift, and php projects are supported by evinse.
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                             BOM summary                                              ║
+╟──────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║                                                                                                      ║
+║                                                                                                      ║
+║ ** Generator Tools **                                                                                ║
+║ cdxgen (11.0.2)                                                                                      ║
+║ maven                                                                                                ║
+║                                                                                                      ║
+║ ** Namespaces (47) **                                                                                ║
+║ antlr                                                                                                ║
+║ ch.qos.logback                                                                                       ║
+║ com.fasterxml                                                                                        ║
+║ com.fasterxml.jackson.core                                                                           ║
+║ com.fasterxml.jackson.datatype                                                                       ║
+║ com.fasterxml.jackson.module                                                                         ║
+║ com.h2database                                                                                       ║
+║ com.sun.istack                                                                                       ║
+║ com.sun.xml.fastinfoset                                                                              ║
+║ com.zaxxer                                                                                           ║
+║ dom4j                                                                                                ║
+║ io.micrometer                                                                                        ║
+║ jakarta.activation                                                                                   ║
+║ jakarta.annotation                                                                                   ║
+║ jakarta.persistence                                                                                  ║
+║ jakarta.transaction                                                                                  ║
+║ jakarta.validation                                                                                   ║
+║ jakarta.xml.bind                                                                                     ║
+║ net.bytebuddy                                                                                        ║
+║ org.apache                                                                                           ║
+║ org.apache.logging.log4j                                                                             ║
+║ org.apache.tomcat-embed-jasper-el                                                                    ║
+║ org.apache.tomcat.embed                                                                              ║
+║ org.aspectj                                                                                          ║
+║ org.aspectj.weaver                                                                                   ║
+║ org.bouncycastle                                                                                     ║
+║ org.bouncycastle.bcpkix                                                                              ║
+║ org.bouncycastle.bcprovider                                                                          ║
+║ org.dom4j                                                                                            ║
+║ org.glassfish.jaxb                                                                                   ║
+║ org.hdrhistogram                                                                                     ║
+║ org.hibernate                                                                                        ║
+║ org.hibernate.common                                                                                 ║
+║ org.hibernate.validator                                                                              ║
+║ org.javassist                                                                                        ║
+║ org.jboss                                                                                            ║
+║ org.jboss.logging                                                                                    ║
+║ org.jvnet.staxex                                                                                     ║
+║ org.latencyutils                                                                                     ║
+║ org.pcollections                                                                                     ║
+║ org.slf4j                                                                                            ║
+║ org.springframework                                                                                  ║
+║ org.springframework.boot                                                                             ║
+║ org.springframework.cloud                                                                            ║
+║ org.springframework.data                                                                             ║
+║ org.springframework.security                                                                         ║
+║ org.yaml                                                                                             ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                           Dependency Tree                                            ║
+║                                     Generated with ♥  by cdxgen                                      ║
+╟──────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║ pkg:maven/org.example/springboot-h2-database-rce@1.0-SNAPSHOT?type=jar                               ║
+║ ├── pkg:maven/com.h2database/h2@1.4.200?type=jar                                                     ║
+║ ├── pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.2.1.RELEASE?type=jar           ║
+║ │   ├── pkg:maven/io.micrometer/micrometer-core@1.3.1?type=jar                                       ║
+║ │   │   ├── pkg:maven/org.hdrhistogram/HdrHistogram@2.1.11?type=jar                                  ║
+║ └───└───└── pkg:maven/org.latencyutils/LatencyUtils@2.0.3?type=jar                                   ║
+║ └───└── pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.2.1.RELEASE?type=jar ║
+║ └───└───└── pkg:maven/org.springframework.boot/spring-boot-actuator@2.2.1.RELEASE?type=jar           ║
+║ ├── pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@2.2.1.RELEASE?type=jar           ║
+║ │   ├── pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?type=jar                           ║
+║ │   ├── pkg:maven/jakarta.persistence/jakarta.persistence-api@2.2.3?type=jar                         ║
+║ │   ├── pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.3?type=jar                         ║
+║ │   ├── pkg:maven/org.hibernate/hibernate-core@5.4.8.Final?type=jar                                  ║
+║ │   │   ├── pkg:maven/antlr/antlr@2.7.7?type=jar                                                     ║
+║ │   │   ├── pkg:maven/com.fasterxml/classmate@1.5.1?type=jar                                         ║
+║ │   │   ├── pkg:maven/net.bytebuddy/byte-buddy@1.10.2?type=jar                                       ║
+║ │   │   ├── pkg:maven/org.dom4j/dom4j@2.1.1?type=jar                                                 ║
+║ │   │   ├── pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.2?type=jar                                 ║
+║ │   │   │   ├── pkg:maven/com.sun.istack/istack-commons-runtime@3.0.8?type=jar                       ║
+║ │   │   │   ├── pkg:maven/com.sun.xml.fastinfoset/FastInfoset@1.2.16?type=jar                        ║
+║ │   │   │   ├── pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2?type=jar                       ║
+║ │   │   │   ├── pkg:maven/org.glassfish.jaxb/txw2@2.3.2?type=jar                                     ║
+║ └───└───└───└── pkg:maven/org.jvnet.staxex/stax-ex@1.8.1?type=jar                                    ║
+║ │   │   ├── pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.0.Final?type=jar        ║
+║ │   │   ├── pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar                                     ║
+║ │   │   ├── pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?type=jar                           ║
+║ └───└───└── pkg:maven/org.jboss/jandex@2.0.5.Final?type=jar                                          ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-aop@2.2.1.RELEASE?type=jar            ║
+║ └───└───└── pkg:maven/org.aspectj/aspectjweaver@1.9.4?type=jar                                       ║
+║ └───└───└── pkg:maven/org.springframework/spring-jdbc@5.2.1.RELEASE?type=jar                         ║
+║ │   ├── pkg:maven/org.springframework.data/spring-data-jpa@2.2.1.RELEASE?type=jar                    ║
+║ │   │   ├── pkg:maven/org.slf4j/slf4j-api@1.7.29?type=jar                                            ║
+║ │   │   ├── pkg:maven/org.springframework.data/spring-data-commons@2.2.1.RELEASE?type=jar            ║
+║ │   │   ├── pkg:maven/org.springframework/spring-orm@5.2.1.RELEASE?type=jar                          ║
+║ └───└───└── pkg:maven/org.springframework/spring-tx@5.2.1.RELEASE?type=jar                           ║
+║ └───└── pkg:maven/org.springframework/spring-aspects@5.2.1.RELEASE?type=jar                          ║
+║ ├── pkg:maven/org.springframework.boot/spring-boot-starter-web@2.2.1.RELEASE?type=jar                ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-json@2.2.1.RELEASE?type=jar           ║
+║ │   │   ├── pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.10.0?type=jar           ║
+║ │   │   ├── pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.10.0?type=jar         ║
+║ └───└───└── pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.10.0?type=jar    ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.2.1.RELEASE?type=jar         ║
+║ │   │   ├── pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.27?type=jar                      ║
+║ │   │   ├── pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.27?type=jar                        ║
+║ └───└───└── pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.27?type=jar                 ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.2.1.RELEASE?type=jar     ║
+║ │   │   ├── pkg:maven/jakarta.validation/jakarta.validation-api@2.0.1?type=jar                       ║
+║ └───└───└── pkg:maven/org.hibernate.validator/hibernate-validator@6.0.18.Final?type=jar              ║
+║ │   ├── pkg:maven/org.springframework.boot/spring-boot-starter@2.2.1.RELEASE?type=jar                ║
+║ │   │   ├── pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar                       ║
+║ │   │   ├── pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.2.1.RELEASE?type=jar      ║
+║ │   │   ├── pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.2.1.RELEASE?type=jar    ║
+║ │   │   │   ├── pkg:maven/ch.qos.logback/logback-classic@1.2.3?type=jar                              ║
+║ └───└───└───└───└── pkg:maven/ch.qos.logback/logback-core@1.2.3?type=jar                             ║
+║ │   │   │   ├── pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.12.1?type=jar                    ║
+║ └───└───└───└───└── pkg:maven/org.apache.logging.log4j/log4j-api@2.12.1?type=jar                     ║
+║ └───└───└───└── pkg:maven/org.slf4j/jul-to-slf4j@1.7.29?type=jar                                     ║
+║ │   │   ├── pkg:maven/org.springframework.boot/spring-boot@2.2.1.RELEASE?type=jar                    ║
+║ │   │   ├── pkg:maven/org.springframework/spring-core@5.2.1.RELEASE?type=jar                         ║
+║ └───└───└───└── pkg:maven/org.springframework/spring-jcl@5.2.1.RELEASE?type=jar                      ║
+║ └───└───└── pkg:maven/org.yaml/snakeyaml@1.25?type=jar                                               ║
+║ │   ├── pkg:maven/org.springframework/spring-web@5.2.1.RELEASE?type=jar                              ║
+║ └───└───└── pkg:maven/org.springframework/spring-beans@5.2.1.RELEASE?type=jar                        ║
+║ └───└── pkg:maven/org.springframework/spring-webmvc@5.2.1.RELEASE?type=jar                           ║
+║ │   │   ├── pkg:maven/org.springframework/spring-aop@5.2.1.RELEASE?type=jar                          ║
+║ │   │   ├── pkg:maven/org.springframework/spring-context@5.2.1.RELEASE?type=jar                      ║
+║ └───└───└── pkg:maven/org.springframework/spring-expression@5.2.1.RELEASE?type=jar                   ║
+║ └── pkg:maven/org.springframework.cloud/spring-cloud-starter-config@2.2.1.RELEASE?type=jar           ║
+║ │   ├── pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0?type=jar                        ║
+║ └───└───└── pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.0?type=jar                        ║
+║ │   ├── pkg:maven/org.springframework.cloud/spring-cloud-config-client@2.2.1.RELEASE?type=jar        ║
+║ └───└───└── pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.0?type=jar                 ║
+║ └───└── pkg:maven/org.springframework.cloud/spring-cloud-starter@2.2.1.RELEASE?type=jar              ║
+║ │   │   ├── pkg:maven/org.springframework.cloud/spring-cloud-commons@2.2.1.RELEASE?type=jar          ║
+║ │   │   ├── pkg:maven/org.springframework.cloud/spring-cloud-context@2.2.1.RELEASE?type=jar          ║
+║ └───└───└───└── pkg:maven/org.springframework.security/spring-security-crypto@5.2.1.RELEASE?type=jar ║
+║ └───└───└── pkg:maven/org.springframework.security/spring-security-rsa@1.0.9.RELEASE?type=jar        ║
+║ └───└───└───└── pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.64?type=jar                              ║
+║ └───└───└───└───└── pkg:maven/org.bouncycastle/bcprov-jdk15on@1.64?type=jar                          ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════╤═════════════════════════════════════╤═══════════════════════════╤═════════════════╤═══════════════════════════╗
+║ Group                     │ Name                                │                   Version │ Scope           │ Tags                      ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-web             │             2.2.1.RELEASE │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter                 │             2.2.1.RELEASE │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot                         │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-autoconfigure           │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-logging         │             2.2.1.RELEASE │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-classic                     │                     1.2.3 │ required        │ sql, xml                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-core                        │                     1.2.3 │ required        │ driver, registry, sql, xm ║
+║                           │                                     │                           │                 │ l                         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.logging.log4j  │ log4j-to-slf4j                      │                    2.12.1 │ required        │ api, framework, slf4j     ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.logging.log4j  │ log4j-api                           │                    2.12.1 │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ jul-to-slf4j                        │                    1.7.29 │ required        │ framework, slf4j          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.annotation        │ jakarta.annotation-api              │                     1.3.5 │ required        │ sql                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-core                         │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-jcl                          │             5.2.1.RELEASE │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.yaml                  │ snakeyaml                           │                      1.25 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-json            │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.dat │ jackson-datatype-jdk8               │                    2.10.0 │ required        │ xml                       ║
+║ atype                     │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.dat │ jackson-datatype-jsr310             │                    2.10.0 │ required        │ xml                       ║
+║ atype                     │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.mod │ jackson-module-parameter-names      │                    2.10.0 │ required        │ xml                       ║
+║ ule                       │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-tomcat          │             2.2.1.RELEASE │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-core                   │                    9.0.27 │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-el                     │                    9.0.27 │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-websocket              │                    9.0.27 │ required        │ framework, tomcat         ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-validation      │             2.2.1.RELEASE │ required        │ framework, validation     ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.validation        │ jakarta.validation-api              │                     2.0.1 │ required        │ validation                ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate.validator   │ hibernate-validator                 │              6.0.18.Final │ required        │ framework, validation     ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-web                          │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-beans                        │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-webmvc                       │             5.2.1.RELEASE │ required        │ framework, web            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-aop                          │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-context                      │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-expression                   │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-actuator        │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-actuator-autoconfigure  │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-actuator                │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ io.micrometer             │ micrometer-core                     │                     1.3.1 │ required        │ http, registry, sql       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hdrhistogram          │ HdrHistogram                        │                    2.1.11 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.latencyutils          │ LatencyUtils                        │                     2.0.3 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-starter-config         │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-starter                │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-context                │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.secur │ spring-security-crypto              │             5.2.1.RELEASE │ required        │ framework                 ║
+║ ity                       │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-commons                │             2.2.1.RELEASE │ required        │ cloud, framework          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.secur │ spring-security-rsa                 │             1.0.9.RELEASE │ required        │ crypto, framework, securi ║
+║ ity                       │                                     │                           │                 │ ty                        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.bouncycastle          │ bcpkix-jdk15on                      │                      1.64 │ required        │ certificate, framework    ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.bouncycastle          │ bcprov-jdk15on                      │                      1.64 │ required        │ api, crypto, framework, j ║
+║                           │                                     │                           │                 │ ce                        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.cloud │ spring-cloud-config-client          │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-annotations                 │                    2.10.0 │ required        │ xml                       ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-databind                    │                    2.10.0 │ required        │ sql, xml                  ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-core                        │                    2.10.0 │ required        │ xml                       ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-data-jpa        │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-aop             │             2.2.1.RELEASE │ required        │ aop, framework            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.aspectj               │ aspectjweaver                       │                     1.9.4 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-jdbc            │             2.2.1.RELEASE │ required        │ framework, jdbc           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.zaxxer                │ HikariCP                            │                     3.4.1 │ required        │ jdbc                      ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-jdbc                         │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.activation        │ jakarta.activation-api              │                     1.2.1 │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.persistence       │ jakarta.persistence-api             │                     2.2.3 │ required        │ sql                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.transaction       │ jakarta.transaction-api             │                     1.3.3 │ required        │ registry                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate             │ hibernate-core                      │               5.4.8.Final │ required        │ framework, orm            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jboss.logging         │ jboss-logging                       │               3.4.1.Final │ required        │ framework, logging        ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.javassist             │ javassist                           │                 3.24.0-GA │ required        │ bytecode, framework       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ net.bytebuddy             │ byte-buddy                          │                    1.10.2 │ required        │ registry                  ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ antlr                     │ antlr                               │                     2.7.7 │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jboss                 │ jandex                              │               2.0.5.Final │ required        │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml             │ classmate                           │                     1.5.1 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.dom4j                 │ dom4j                               │                     2.1.1 │ required        │ framework, xml            ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate.common      │ hibernate-commons-annotations       │               5.1.0.Final │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.glassfish.jaxb        │ jaxb-runtime                        │                     2.3.2 │ required        │ registry, xml             ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ jakarta.xml.bind          │ jakarta.xml.bind-api                │                     2.3.2 │ required        │ registry, xml             ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.glassfish.jaxb        │ txw2                                │                     2.3.2 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.sun.istack            │ istack-commons-runtime              │                     3.0.8 │ required        │ xml                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jvnet.staxex          │ stax-ex                             │                     1.8.1 │ required        │ api                       ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.sun.xml.fastinfoset   │ FastInfoset                         │                    1.2.16 │ required        │ binary, xml               ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.data  │ spring-data-jpa                     │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.data  │ spring-data-commons                 │             2.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-orm                          │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-tx                           │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ slf4j-api                           │                    1.7.29 │ required        │ framework, slf4j          ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-aspects                      │             5.2.1.RELEASE │ required        │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.pcollections          │ pcollections                        │                     3.1.0 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache                │ tomcat-embed-websocket              │                    9.0.27 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat-embed-j │ tomcat-embed-el                     │                    9.0.27 │                 │ framework                 ║
+║ asper-el                  │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache                │ tomcat-embed-core                   │                    9.0.27 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-security-crypto              │             5.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-web             │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-validation      │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-tomcat          │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-logging         │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-json            │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-jdbc            │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-data-jpa        │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-aop             │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter-actuator        │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-starter                 │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-autoconfigure           │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-actuator-autoconfigure  │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot-actuator                │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-boot                         │             2.2.1.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate             │ hibernate-commons-annotations       │               5.1.0.Final │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ dom4j                     │ dom4j                               │                     2.1.1 │                 │                           ║
+╚═══════════════════════════╧═════════════════════════════════════╧═══════════════════════════╧═════════════════╧═══════════════════════════╝
+BOM includes 104 components and 81 dependencies
+arik@Ariks-MacBook-Pro-2 H2 %
