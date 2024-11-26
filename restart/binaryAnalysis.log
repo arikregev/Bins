@@ -1,0 +1,6 @@
+Obtained only 80 components from 81 jars.
+Unable to identify component evidence for the input SBOM. Only java, javascript, python, swift, and php projects are supported by evinse.
+╔═══════════════════════════╤═════════════════════════════════════╤═══════════════════════════╤═════════════════╤═══════════════════════════╗
+║ Group                     │ Name                                │                   Version │ Scope           │ Tags                      ║
+╚═══════════════════════════╧═════════════════════════════════════╧═══════════════════════════╧═════════════════╧═══════════════════════════╝
+BOM includes 0 components and 0 dependencies
