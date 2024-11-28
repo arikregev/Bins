@@ -1,0 +1,344 @@
+arik@Ariks-MacBook-Pro-2 noPom % cdxgen --evidence -p -deep
+Scanning .
+Performing babel-based package usage analysis with source code at .
+Executing node /opt/homebrew/Cellar/cdxgen/11.0.2/libexec/lib/node_modules/@cyclonedx/cdxgen/node_modules/@appthreat/atom/index.js parsedeps -l python -o /var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/atom-deps-i2OT1K/app.atom --slice-outfile /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/deps.slices.json /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom
+Slices have been successfully written to /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/deps.slices.json
+
+Executing node /opt/homebrew/Cellar/cdxgen/11.0.2/libexec/lib/node_modules/@cyclonedx/cdxgen/node_modules/@appthreat/atom/index.js usages -l c -o /var/folders/m0/mq6ld54168q26pkwcm240fzm0000gn/T/atom-deps-XnKzA6/app.atom --slice-outfile /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/usages.slices.json /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom
+Slicing the atom for usages. This might take a few minutes ...
+Slices have been successfully written to /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/usages.slices.json
+
+Parsing /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar
+Found 34 jar packages at .
+Obtained 34 components and 0 dependencies after dedupe.
+Creating reachables slice for /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom. Please wait ...
+Executing node /opt/homebrew/Cellar/cdxgen/11.0.2/libexec/lib/node_modules/@cyclonedx/cdxgen/node_modules/@appthreat/atom/index.js reachables -l java -o /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/app.atom --slice-outfile /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/reachables.slices.json /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom
+Generating data-flow dependencies from atom. Please wait ...
+Slicing the atom for reachables. This might take a few minutes ...
+Slices have been successfully written to /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/reachables.slices.json
+
+Unable to identify component evidence for the input SBOM. Only java, javascript, python, swift, and php projects are supported by evinse.
+===== WARNINGS =====
+[
+  'Dependency tree is partial with multiple empty dependsOn attributes.'
+]
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                             BOM summary                                              ║
+╟──────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║                                                                                                      ║
+║                                                                                                      ║
+║ ** Generator Tools **                                                                                ║
+║ cdxgen (11.0.2)                                                                                      ║
+║                                                                                                      ║
+║ ** Package Types (1) **                                                                              ║
+║ maven                                                                                                ║
+║                                                                                                      ║
+║ ** Namespaces (13) **                                                                                ║
+║ ch.qos.logback                                                                                       ║
+║ com.fasterxml                                                                                        ║
+║ com.fasterxml.jackson.core                                                                           ║
+║ com.googlecode.json-simple                                                                           ║
+║ javax.validation                                                                                     ║
+║ org.apache.tomcat.embed                                                                              ║
+║ org.hibernate                                                                                        ║
+║ org.jboss.logging                                                                                    ║
+║ org.jolokia                                                                                          ║
+║ org.slf4j                                                                                            ║
+║ org.springframework                                                                                  ║
+║ org.springframework.boot                                                                             ║
+║ org.yaml                                                                                             ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════╤═════════════════════════════════════╤═══════════════════════════╤═════════════════╤═══════════════════════════╗
+║ Group                     │ Name                                │                   Version │ Scope           │ Tags                      ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ javax.validation          │ validation-api                      │               1.1.0.Final │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-websocket              │                    8.5.15 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-el                     │                    8.5.15 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.apache.tomcat.embed   │ tomcat-embed-core                   │                    8.5.15 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-webmvc                       │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-web                          │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-expression                   │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-core                         │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-context                      │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-web             │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-tomcat          │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-logging         │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-actuator        │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter                 │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-autoconfigure           │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-actuator                │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot                         │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-beans                        │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework       │ spring-aop                          │             4.3.9.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.yaml                  │ snakeyaml                           │                      1.17 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ slf4j-api                           │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-core                        │                    1.1.11 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-classic                     │                    1.1.11 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ log4j-over-slf4j                    │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ jul-to-slf4j                        │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.googlecode.json-simpl │ json-simple                         │                     1.1.1 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jolokia               │ jolokia-core                        │                     1.6.0 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ jcl-over-slf4j                      │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jboss.logging         │ jboss-logging                       │               3.3.1.Final │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-databind                    │                     2.8.8 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-core                        │                     2.8.8 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-annotations                 │                     2.8.8 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate             │ hibernate-validator                 │               5.2.5.Final │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml             │ classmate                           │                     1.3.3 │                 │                           ║
+╚═══════════════════════════╧═════════════════════════════════════╧═══════════════════════════╧═════════════════╧═══════════════════════════╝
+BOM includes 34 components and 0 dependencies
+arik@Ariks-MacBook-Pro-2 noPom % cdxgen --evidence -p --technique manifest-analysis
+Scanning .
+Performing babel-based package usage analysis with source code at .
+Re-using existing slices file usages.slices.json
+Parsing /Users/arik/IdeaProjects/SpringBootVulExploit/Bins/Bins/jolokia/noPom/springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar
+Found 34 jar packages at .
+Obtained 34 components and 0 dependencies after dedupe.
+Unable to identify component evidence for the input SBOM. Only java, javascript, python, swift, and php projects are supported by evinse.
+===== WARNINGS =====
+[
+  'Dependency tree is partial with multiple empty dependsOn attributes.'
+]
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                             BOM summary                                              ║
+╟──────────────────────────────────────────────────────────────────────────────────────────────────────╢
+║                                                                                                      ║
+║                                                                                                      ║
+║ ** Generator Tools **                                                                                ║
+║ cdxgen (11.0.2)                                                                                      ║
+║                                                                                                      ║
+║ ** Package Types (1) **                                                                              ║
+║ maven                                                                                                ║
+║                                                                                                      ║
+║ ** Namespaces (11) **                                                                                ║
+║ ch.qos.logback                                                                                       ║
+║ com.fasterxml                                                                                        ║
+║ com.fasterxml.jackson.core                                                                           ║
+║ com.googlecode.json-simple                                                                           ║
+║ javax.validation                                                                                     ║
+║ org.hibernate                                                                                        ║
+║ org.jboss.logging                                                                                    ║
+║ org.jolokia                                                                                          ║
+║ org.slf4j                                                                                            ║
+║ org.springframework.boot                                                                             ║
+║ org.yaml                                                                                             ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════╤═════════════════════════════════════╤═══════════════════════════╤═════════════════╤═══════════════════════════╗
+║ Group                     │ Name                                │                   Version │ Scope           │ Tags                      ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-classic                     │                    1.1.11 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ ch.qos.logback            │ logback-core                        │                    1.1.11 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-annotations                 │                     2.8.8 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-core                        │                     2.8.8 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml.jackson.cor │ jackson-databind                    │                     2.8.8 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.fasterxml             │ classmate                           │                     1.3.3 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ com.googlecode.json-simpl │ json-simple                         │                     1.1.1 │                 │                           ║
+║ e                         │                                     │                           │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ javax.validation          │ validation-api                      │               1.1.0.Final │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.hibernate             │ hibernate-validator                 │               5.2.5.Final │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jboss.logging         │ jboss-logging                       │               3.3.1.Final │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.jolokia               │ jolokia-core                        │                     1.6.0 │                 │                           ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ jcl-over-slf4j                      │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ jul-to-slf4j                        │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ log4j-over-slf4j                    │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.slf4j                 │ slf4j-api                           │                    1.7.25 │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-actuator                │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-autoconfigure           │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-actuator        │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-logging         │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-tomcat          │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter-web             │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot-starter                 │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.springframework.boot  │ spring-boot                         │             1.4.7.RELEASE │                 │ framework                 ║
+╟───────────────────────────┼─────────────────────────────────────┼───────────────────────────┼─────────────────┼───────────────────────────╢
+║ org.yaml                  │ snakeyaml                           │                      1.17 │                 │                           ║
+╚═══════════════════════════╧═════════════════════════════════════╧═══════════════════════════╧═════════════════╧═══════════════════════════╝
+BOM includes 24 components and 0 dependencies
+arik@Ariks-MacBook-Pro-2 noPom % cdxgen --evidence -p --technique manifest-analysis
+arik@Ariks-MacBook-Pro-2 noPom % ls
+app.atom							reachables.slices.json						usages.slices.json
+bom.json							springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar
+deps.slices.json						springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar.original
+arik@Ariks-MacBook-Pro-2 noPom % cp springboot-jolokia-logback-rce-1.0-SNAPSHOT.zip
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+arik@Ariks-MacBook-Pro-2 noPom % cp springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar springboot-jolokia-logback-rce-1.0-SNAPSHOT.zip
+arik@Ariks-MacBook-Pro-2 noPom % ls
+app.atom							reachables.slices.json						springboot-jolokia-logback-rce-1.0-SNAPSHOT.zip
+bom.json							springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar			usages.slices.json
+deps.slices.json						springboot-jolokia-logback-rce-1.0-SNAPSHOT.jar.original
+arik@Ariks-MacBook-Pro-2 noPom % unzip springboot-jolokia-logback-rce-1.0-SNAPSHOT.zip
+Archive:  springboot-jolokia-logback-rce-1.0-SNAPSHOT.zip
+   creating: META-INF/
+  inflating: META-INF/MANIFEST.MF
+   creating: BOOT-INF/
+   creating: BOOT-INF/classes/
+   creating: BOOT-INF/classes/code/
+   creating: BOOT-INF/classes/code/landgrey/
+   creating: BOOT-INF/classes/code/landgrey/controller/
+  inflating: BOOT-INF/classes/logback.xml
+  inflating: BOOT-INF/classes/code/landgrey/controller/Article.class
+  inflating: BOOT-INF/classes/code/landgrey/Application.class
+  inflating: BOOT-INF/classes/application.properties
+   creating: BOOT-INF/lib/
+ extracting: BOOT-INF/lib/spring-boot-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-web-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-boot-actuator-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/tomcat-embed-core-8.5.15.jar
+ extracting: BOOT-INF/lib/jboss-logging-3.3.1.Final.jar
+ extracting: BOOT-INF/lib/log4j-over-slf4j-1.7.25.jar
+ extracting: BOOT-INF/lib/logback-core-1.1.11.jar
+ extracting: BOOT-INF/lib/spring-boot-starter-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/jolokia-core-1.6.0.jar
+ extracting: BOOT-INF/lib/tomcat-embed-el-8.5.15.jar
+ extracting: BOOT-INF/lib/spring-context-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-boot-starter-actuator-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/jackson-core-2.8.8.jar
+ extracting: BOOT-INF/lib/spring-boot-starter-web-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-boot-autoconfigure-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-boot-starter-tomcat-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/snakeyaml-1.17.jar
+ extracting: BOOT-INF/lib/json-simple-1.1.1.jar
+ extracting: BOOT-INF/lib/jcl-over-slf4j-1.7.25.jar
+ extracting: BOOT-INF/lib/spring-beans-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-expression-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-boot-starter-logging-1.4.7.RELEASE.jar
+ extracting: BOOT-INF/lib/spring-webmvc-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/jackson-annotations-2.8.8.jar
+ extracting: BOOT-INF/lib/slf4j-api-1.7.25.jar
+ extracting: BOOT-INF/lib/spring-core-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/jackson-databind-2.8.8.jar
+ extracting: BOOT-INF/lib/hibernate-validator-5.2.5.Final.jar
+ extracting: BOOT-INF/lib/validation-api-1.1.0.Final.jar
+ extracting: BOOT-INF/lib/classmate-1.3.3.jar
+ extracting: BOOT-INF/lib/logback-classic-1.1.11.jar
+ extracting: BOOT-INF/lib/spring-aop-4.3.9.RELEASE.jar
+ extracting: BOOT-INF/lib/jul-to-slf4j-1.7.25.jar
+ extracting: BOOT-INF/lib/tomcat-embed-websocket-8.5.15.jar
+   creating: org/
+   creating: org/springframework/
+   creating: org/springframework/boot/
+   creating: org/springframework/boot/loader/
+  inflating: org/springframework/boot/loader/LaunchedURLClassLoader$1.class
+  inflating: org/springframework/boot/loader/PropertiesLauncher$ArchiveEntryFilter.class
+  inflating: org/springframework/boot/loader/PropertiesLauncher$PrefixMatchingArchiveFilter.class
+  inflating: org/springframework/boot/loader/Launcher.class
+  inflating: org/springframework/boot/loader/ExecutableArchiveLauncher$1.class
+   creating: org/springframework/boot/loader/jar/
+  inflating: org/springframework/boot/loader/jar/JarFile$1.class
+  inflating: org/springframework/boot/loader/jar/Handler.class
+  inflating: org/springframework/boot/loader/jar/JarEntry.class
+  inflating: org/springframework/boot/loader/jar/JarFile$3.class
+  inflating: org/springframework/boot/loader/jar/CentralDirectoryEndRecord.class
+  inflating: org/springframework/boot/loader/jar/CentralDirectoryVisitor.class
+  inflating: org/springframework/boot/loader/jar/JarFile$JarFileType.class
+  inflating: org/springframework/boot/loader/jar/JarFileEntries.class
+  inflating: org/springframework/boot/loader/jar/JarFile.class
+  inflating: org/springframework/boot/loader/jar/JarFileEntries$1.class
+  inflating: org/springframework/boot/loader/jar/JarURLConnection$1.class
+  inflating: org/springframework/boot/loader/jar/JarFile$2.class
+  inflating: org/springframework/boot/loader/jar/JarEntryFilter.class
+  inflating: org/springframework/boot/loader/jar/AsciiBytes.class
+  inflating: org/springframework/boot/loader/jar/CentralDirectoryParser.class
+  inflating: org/springframework/boot/loader/jar/Bytes.class
+  inflating: org/springframework/boot/loader/jar/ZipInflaterInputStream.class
+  inflating: org/springframework/boot/loader/jar/JarFileEntries$EntryIterator.class
+  inflating: org/springframework/boot/loader/jar/FileHeader.class
+  inflating: org/springframework/boot/loader/jar/JarURLConnection$JarEntryName.class
+  inflating: org/springframework/boot/loader/jar/JarURLConnection.class
+  inflating: org/springframework/boot/loader/jar/CentralDirectoryFileHeader.class
+  inflating: org/springframework/boot/loader/PropertiesLauncher$FilteredArchive$1.class
+   creating: org/springframework/boot/loader/data/
+  inflating: org/springframework/boot/loader/data/ByteArrayRandomAccessData.class
+  inflating: org/springframework/boot/loader/data/RandomAccessDataFile$DataInputStream.class
+  inflating: org/springframework/boot/loader/data/RandomAccessDataFile$FilePool.class
+  inflating: org/springframework/boot/loader/data/RandomAccessData$ResourceAccess.class
+  inflating: org/springframework/boot/loader/data/RandomAccessDataFile.class
+  inflating: org/springframework/boot/loader/data/RandomAccessData.class
+  inflating: org/springframework/boot/loader/LaunchedURLClassLoader.class
+  inflating: org/springframework/boot/loader/JarLauncher.class
+  inflating: org/springframework/boot/loader/MainMethodRunner.class
+  inflating: org/springframework/boot/loader/PropertiesLauncher$FilteredArchive.class
+  inflating: org/springframework/boot/loader/PropertiesLauncher$1.class
+  inflating: org/springframework/boot/loader/ExecutableArchiveLauncher.class
+  inflating: org/springframework/boot/loader/WarLauncher.class
+   creating: org/springframework/boot/loader/archive/
+  inflating: org/springframework/boot/loader/archive/JarFileArchive$EntryIterator.class
+  inflating: org/springframework/boot/loader/archive/ExplodedArchive$FileEntryIterator.class
+  inflating: org/springframework/boot/loader/archive/ExplodedArchive$FileEntry.class
+  inflating: org/springframework/boot/loader/archive/JarFileArchive$JarFileEntry.class
+  inflating: org/springframework/boot/loader/archive/Archive$Entry.class
+  inflating: org/springframework/boot/loader/archive/JarFileArchive.class
+  inflating: org/springframework/boot/loader/archive/ExplodedArchive.class
+  inflating: org/springframework/boot/loader/archive/Archive.class
+  inflating: org/springframework/boot/loader/archive/ExplodedArchive$FileEntryIterator$EntryComparator.class
+  inflating: org/springframework/boot/loader/archive/Archive$EntryFilter.class
+  inflating: org/springframework/boot/loader/archive/ExplodedArchive$1.class
+  inflating: org/springframework/boot/loader/PropertiesLauncher.class
+   creating: org/springframework/boot/loader/util/
+  inflating: org/springframework/boot/loader/util/SystemPropertyUtils.class
+arik@Ariks-MacBook-Pro-2 noPom %
